@@ -78,7 +78,9 @@
     background: #f1356d;
     color: #fff;
     border: 0;
-    padding: 8px;
+    padding: 8px 16px;
+    display: block;
+    margin: 0 auto;
     border-radius: 8px;
     cursor: pointer;
 }
@@ -117,4 +119,19 @@
     padding: 8px;
     border-radius: 8px;
     cursor: pointer;
+}
+
+/* Not found page */
+.not-found p {
+    margin: 16px 0;
+}
+
+.not-found a {
+    text-decoration: none;
+    transition: 0.4s;
+}
+
+.not-found a:hover {
+    color: #f1356d;
+    text-decoration: underline;
 }
